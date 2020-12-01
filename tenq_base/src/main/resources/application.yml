@@ -1,0 +1,19 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: tenq-base
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/tensquare_base?characterEncoding=utf-8
+    username: root
+    password: root
+
+logging:
+  path: log/
+  file: base.log
+  level:
+    root: info
+    com:
+      tenq:
+       base: debug

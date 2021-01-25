@@ -13,7 +13,7 @@ import java.util.List;
 @CrossOrigin
 @RequestMapping("/label")
 public class LabelController {
-    @Autowired
+    @Autowired//1
    private LabelService labelService;
     @GetMapping
     public Result findAll() {
